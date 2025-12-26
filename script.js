@@ -1,34 +1,34 @@
-// // Q1
-// function currentDateandTime() {
-//     var now = new Date();
-//      document.write("Current Date and Time: " + now)
-// }
+// Q1
+function currentDateandTime() {
+    var now = new Date();
+     document.write("Current Date and Time: " + now)
+}
 
-// currentDateandTime();
+currentDateandTime();
 
-// //Q2
+//Q2
 
-// var firstName = prompt("Enter your first name");
-// var lastName = prompt("Enter your last name");
-// var userName = firstName  + " " + lastName
+var firstName = prompt("Enter your first name");
+var lastName = prompt("Enter your last name");
+var userName = firstName  + " " + lastName
 
-// // console.log(userName);
-// function greet() {
-//     alert(`Hello ${userName} Welcome`)
-// }
-// greet();
+// console.log(userName);
+function greet() {
+    alert(`Hello ${userName} Welcome`)
+}
+greet();
 
-// //Q3
+//Q3
 
-// var num1 = +prompt("Enter First number");
-// var num2 = +prompt("Enter Last number");
-// var sum2num = num1 + num2 
+var num1 = +prompt("Enter First number");
+var num2 = +prompt("Enter Last number");
+var sum2num = num1 + num2 
 
-// function addtoNumbers() {
-//   alert(`Sum of ${num1} and ${num2} is ${sum2num}`)
-// }
+function addtoNumbers() {
+  alert(`Sum of ${num1} and ${num2} is ${sum2num}`)
+}
 
-// addtoNumbers();
+addtoNumbers();
 
 
 //Q4 
